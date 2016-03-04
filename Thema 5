@@ -51,10 +51,9 @@ elif h==6:
 else:
 	h = "SABBATO"
 
-if minas==0:
-	print """Den iparxei minas pou na antistoixei sto noumero '0',
-oi mines einai apo 1=Ianouarios mexri 12=Dekembrios"""
+if minas==0 or mera==0 or xronia==0:
+	print """Den iparxei minas, mera, i xronia pou na antistoixei sto noumero '0'"""
+
+
 else:
 	print h
-		
-		
