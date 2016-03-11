@@ -53,7 +53,9 @@ else:
 
 if minas==0 or mera==0 or xronia==0:
 	print """Den iparxei minas, mera, i xronia pou na antistoixei sto noumero '0'"""
-
+	
+elif minas>12 or mera>31:
+	print "I imerominia auti den iparxei"
 
 else:
 	print h
